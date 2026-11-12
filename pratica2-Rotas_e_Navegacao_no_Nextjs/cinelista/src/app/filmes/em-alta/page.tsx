@@ -1,4 +1,4 @@
-import Title from "@/app/components/Header/Title"
+import Title from "@/app/components/Title"
 
 const FilmesEmAlta = () => {
 

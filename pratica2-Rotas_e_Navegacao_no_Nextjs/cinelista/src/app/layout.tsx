@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import Header from "./components/Header/index";
-import Footer from "./components/Header/Footer/index";
+import Footer from "./components/Footer/index";
 
 export const metadata: Metadata = {
   title: "Cinelista",
