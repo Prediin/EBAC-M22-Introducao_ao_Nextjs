@@ -21,7 +21,7 @@ const formatarPreco = (preco: number) =>
 const CardDestino = ({ destino }: CardDestinoProps) => {
   return (
     <article className="flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md">
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-100">
+      <div className="relative aspect-4/3 w-full overflow-hidden bg-slate-100">
         <Image
           src={destino.imagem}
           alt={destino.imagemAlt}
